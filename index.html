@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kev - Calculator (Perimeter, Area and Volume) - 2023</h1>
+        <form>
+            <label for="figure">Select a figure:</label>
+            <select id="figure" onchange="showGraph()">
+
+                <option value="selected" disabled selected>Choose One</option>
+                <option value="square">Square</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="triangle">Triangle</option>
+                <option value="rhombus">Rhombus</option>
+                <option value="trapezium">Trapezium</option>
+                <option value="circle">Circle</option>
+                <option value="sphere">Sphere</option>
+                <option value="cube">Cube</option>
+                <option value="parallelepiped">Parallelepiped</option>
+                <option value="cylinder">Cylinder</option>
+                <option value="cone">Cone</option>
+            </select>
+            <label for="input1">Enter dimension 1:</label>
+            <input type="number" id="input1">
+            <br>
+            <div id="input2-container" style="display:none;">
+                <label for="input2">Enter dimension 2:</label>
+                <input type="number" id="input2">
+                <br>
+            </div>
+            <div id="input3-container" style="display:none;">
+                <label for="input3">Enter dimension 3:</label>
+                <input type="number" id="input3">
+                <br>
+            </div>
+            <button type="button" onclick="calculate()">Calculate</button>
+        </form>
+        <div id="result"></div>
+        <div id="graph-container" style="display:none;">
+            <h3 id="figure-title"></h3>
+            <div id="graph"></div>
+            <p id="description"></p>
+        </div>
+        <footer>
+            <p class="copyright">&copy by Kev</p>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
