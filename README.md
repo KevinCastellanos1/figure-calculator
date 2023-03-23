@@ -27,7 +27,7 @@
             <h3 align="center">General Information</h3> 
             <hr>
             <p>This project is a calculator that can perform basic operations on two-dimensional and three-dimensional figures. It was created using HTML, CSS, and JavaScript.</p>
-            <p align="center"><a  href="#">DEMO (click aqui)</a></p>
+            <p align="center"><a href="https://calculator-figures.netlify.app/">DEMO (click aqui)</a></p>   
         </div>
         <div>              
             <hr><h3 align="center">Code Explanation</h3><hr>        
@@ -36,8 +36,8 @@
         </div> 
         <div align="center">
             <hr><h3 align="center">Video</h3><hr>
-            <video src="#"></video>    
-        </div>
+            <video src="https://user-images.githubusercontent.com/32087507/227068277-4b5053e1-fa35-49b1-b7e8-490c5531c9bf.mp4"></video>     
+        </div>    
         <div>
             <hr><h3 align="center">FAQs</h3><hr>        
             <p>1. How can I use this calculator?</p>            
@@ -64,7 +64,7 @@
             <a href="https://github.com/KevinCastellanos1">
                 <img src="https://img.shields.io/badge/Github-%2324292e.svg?logo=github&logoColor=white" alt="Github">
             </a>
-            <h3>Mas proyectos en:</h3>
+            <h3>More projects at:</h3>
             <a href="https://github.com/KevinCastellanos1">
                 <img alt="Github" src="https://img.shields.io/badge/Github-%2324292e.svg?logo=github&logoColor=white">
             </a>
