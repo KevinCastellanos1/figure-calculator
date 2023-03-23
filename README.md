@@ -10,7 +10,7 @@
     <header>
         <div align="center">
         <h1>Hi there :raised_hand_with_fingers_splayed:</h1>
-        <h2>FIgure Calculator</h2>
+        <h2>Figure Calculator</h2>
         </div>     
     </header>
     <main>
