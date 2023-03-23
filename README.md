@@ -27,7 +27,7 @@
             <h3 align="center">General Information</h3> 
             <hr>
             <p>This project is a calculator that can perform basic operations on two-dimensional and three-dimensional figures. It was created using HTML, CSS, and JavaScript.</p>
-            <p align="center"><a href="https://calculator-figures.netlify.app/">DEMO (click aqui)</a></p>   
+            <p align="center"><a href="https://calculator-figures.netlify.app/">DEMO (click here)</a></p>   
         </div>
         <div>              
             <hr><h3 align="center">Code Explanation</h3><hr>        
